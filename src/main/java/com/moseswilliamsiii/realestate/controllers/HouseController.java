@@ -41,7 +41,7 @@ public class HouseController {
     }
 
 
-    //DELTE
+    //DELETE
     @DeleteMapping("/houses/{id}")
     public void deleteHouseById(@PathVariable String id) throws CustomHouseException {
 
